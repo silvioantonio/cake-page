@@ -35,8 +35,13 @@ header ul li a{
     text-decoration: none;
 }
 
+h3{
+    display: block;
+    text-align: center;
+}
+
 .carrousel{
-    background-image: url("img1.jpg");
+    background-image: url("../imagens/img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -46,13 +51,15 @@ header ul li a{
     width: 330px;
     height: 330px;;
 }
-.categorias{
+.textura{
+    background-image: url("../fundo-textura.png");
+    height: 200px;
+    width: 1008px;
+    box-align:center;
+}
+.categorias>section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-footer{
-    
 }
